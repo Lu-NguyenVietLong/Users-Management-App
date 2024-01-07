@@ -1,0 +1,37 @@
+.header-control {
+    display: flex;
+    justify-content: space-between;
+
+    
+    .btn-control {
+        display: flex;
+
+        i {
+            margin-right: 4px;
+        }
+
+        .btn-download{
+            margin-right: 10px;
+        }
+
+        .btn-upload {
+            margin-right: 10px;
+        }
+    }
+}
+
+.sort-header {
+    display: flex;
+    justify-content: space-around;
+
+    i {
+        cursor: pointer;
+        padding: 0 2px;
+    }
+}
+
+
+.paginate-user-table {
+    display: flex;
+    justify-content: center;
+}
